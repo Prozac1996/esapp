@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#FFF"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <com.zte.esapp.controller.NoScrollViewPager android:id="@+id/main_viewPager"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1"/>
+
+    <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/btn_discovery"
+                   android:src="@drawable/discovery_selector"
+                   android:gravity="center"
+                   android:clickable="true"
+                   android:focusable="true"
+                   android:padding="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="50dp"/>
+        <ImageView android:id="@+id/btn_what"
+                   android:src="@drawable/coushu_selector"
+                   android:gravity="center"
+                   android:layout_width="0dp"
+                   android:padding="10dp"
+                   android:clickable="true"
+                   android:focusable="true"
+                   android:layout_weight="1"
+                   android:layout_height="50dp"/>
+        <ImageView android:id="@+id/btn_up_class"
+                   android:src="@drawable/up_class_selector"
+                   android:gravity="center"
+                   android:layout_width="0dp"
+                   android:padding="10dp"
+                   android:clickable="true"
+                   android:focusable="true"
+                   android:layout_weight="1"
+                   android:layout_height="50dp"/>
+        <ImageView android:id="@+id/btn_bought"
+                   android:src="@drawable/bought_selector"
+                   android:gravity="center"
+                   android:layout_width="0dp"
+                   android:padding="10dp"
+                   android:clickable="true"
+                   android:focusable="true"
+                   android:layout_weight="1"
+                   android:layout_height="50dp"/>
+        <ImageView android:id="@+id/btn_my"
+                   android:src="@drawable/my_selector"
+                   android:gravity="center"
+                   android:layout_width="0dp"
+                   android:padding="10dp"
+                   android:clickable="true"
+                   android:focusable="true"
+                   android:layout_weight="1"
+                   android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

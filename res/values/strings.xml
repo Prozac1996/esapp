@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="local_music">本地音乐</string>
+    <string name="recent_play">最近播放</string>
+    <string name="local_manage">下载管理</string>
+    <string name="my_artist">我的歌手</string>
+    <string name="created_playlists">创建的歌单</string>
+    <string name="my_fav_playlist">我喜欢的音乐</string>
+    <string name="shared_to">分享到</string>
+
+    <string name="queue_is_empty">播放队列为空</string>
+    <string name="random_play">随机播放</string>
+    <string name="loop_play">列表循环</string>
+    <string name="play_one">单曲播放</string>
+
+    <string name="sure_to_delete_music">确定删除歌曲吗</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="search_local_music">搜索本地歌曲</string>
+    <string name="search_net_music">搜索音乐、歌手、歌词、...</string>
+    <string name="sure_to_set_ringtone">确定成设置铃声吗</string>
+
+    <string name="set_ringtone_successed">设置铃声成功！</string>
+
+    <string name="app_name">家长学院</string>
+    <string name="search">搜索</string>
+    <string name="action_connect">连接设备</string>
+    <string name="timing">定时播放</string>
+    <string name="exit">退出</string>
+    <string name="search_hint">歌名/歌手名</string>
+    <string name="title_activity_search_">Search_Activity</string>
+    <string name="dialog_fire_missiles">您确定要退出吗</string>
+    <string name="fire">确定</string>
+
+    <string name="next_play">已加入下一首播放</string>
+
+    <color name="test_color">#696969</color>
+
+
+    <string name="duration_format" translatable="false"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
+    <string name="durationformatshort" translatable="false"><xliff:g id="format">%2$d:%3$02d</xliff:g></string>
+    <string name="durationformatlong" translatable="false"><xliff:g id="format">%1$d:%2$02d:%3$02d</xliff:g></string>
+
+    <string name="menu_sort_by">选择排序方式</string>
+    <string name="sort_order_entry_az">按名称排序</string>
+    <string name="sort_order_entry_dateadded">按添加时间排序</string>
+    <string name="sort_order_entry_album">按专辑排序</string>
+    <string name="sort_order_entry_artist">按歌手排序</string>
+    <string name="sort_order_entry_number_of_songs">按歌曲数量排序</string>
+
+    <string name="confirm">ok</string>
+    <string name="textview_title_unlock">Unlock it</string>
+    <string name="textview_title_lock">Lock it</string>
+    <string name="textview_click_before">Unlock it to open the door of the new world !</string>
+    <string name="textview_click_after">Go to : https://github.com/Bilibili/MagicaSakura</string>
+
+
+    <string name="review">回顾</string>
+    <string name="freeTodayClass">今日课|免费专区</string>
+    <string name="scanAll">查看全部 ></string>
+    <string name="change">换一换</string>
+    <string name="course">精品课</string>
+    <string name="fuzzy">猜你喜欢</string>
+    <string name="hot">热门收听</string>
+    <string name="history">最近阅读</string>
+    <string name="all">全部</string>
+    <string name="played">已播</string>
+    <string name="musicLong">音频时长:</string>
+    <string name="studyTime">上课时间</string>
+    <string name="studyBook">学习书籍</string>
+    <string name="studyDay">连续学习</string>
+    <string name="messageCenter">消息中心</string>
+    <string name="downloaded">已下载音频</string>
+    <string name="like">我赞过的</string>
+    <string name="myAccount">我的账户</string>
+    <string name="setting">设置</string>
+    <string name="share">推荐给好友</string>
+    <string name="arrowBack"><![CDATA[< 返回]]></string>
+    <string name="nickName">昵称：</string>
+    <string name="sex">性别：</string>
+    <string name="birthYear">出生年份：</string>
+    <string name="education">学历：</string>
+    <string name="major">行业：</string>
+    <string name="job">职业：</string>
+    <string name="editData">编辑资料</string>
+    <string name="studyRecord">学习记录</string>
+    <string name="everyDayStudyTime">每日学习时间</string>
+    <string name="timeLength">时长</string>
+    <string name="studentNum">人已入学</string>
+    <string name="courseDetail">精品课详情</string>
+    <string name="doubleArrow"><![CDATA[> >]]></string>
+    <string name="classNum">课时</string>
+    <string name="courseContent">课程内容</string>
+    <string name="tryListen">试听</string>
+    <string name="bestNew">最新</string>
+    <string name="discovery">发现</string>
+    <string name="upClass">上课</string>
+    <string name="alreadyBuy">已购</string>
+    <string name="my">我的</string>
+    <string name="payMoney">支付金额：</string>
+    <string name="downloading">下载中</string>
+    <string name="alreadyDownload">已下载</string>
+    <string name="latelyDownload">最近下载</string>
+    <string name="batchDelete">批量删除</string>
+    <string name="deleteMusic">删除音频</string>
+    <string name="setting_bind">账号/绑定设置</string>
+    <string name="setting_help">帮助中心</string>
+    <string name="setting_about">关于我们</string>
+    <string name="settingClearCache">清除缓存</string>
+    <string name="quit">退出</string>
+    <string name="modifyPassword">修改密码</string>
+    <string name="sourcePassword">原密码</string>
+    <string name="newPassword">新密码</string>
+    <string name="confirmPassword">确认新密码</string>
+    <string name="finish">完成</string>
+    <string name="account">账号</string>
+    <string name="changePhone">更换手机号</string>
+    <string name="bindWeChat">绑定微信</string>
+    <string name="save">保存</string>
+    <string name="register">注册账号</string>
+    <string name="forget">忘记密码</string>
+
+</resources>

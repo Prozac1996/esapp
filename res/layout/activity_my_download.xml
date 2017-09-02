@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_centerVertical="true"
+                android:onClick="back" android:text="@string/arrowBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/btn_already_download"
+                      android:textSize="20sp"
+                      android:text="@string/alreadyDownload"
+                      style="@style/MyOrangeText"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/btn_downloading"
+                      android:textSize="20sp"
+                      android:text="@string/downloading"
+                      style="@style/MyOrangeText"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <ImageView
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    <com.zte.esapp.controller.NoScrollViewPager android:id="@+id/vp_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.zte.esapp.controller.NoScrollViewPager>
+</LinearLayout>
